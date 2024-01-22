@@ -1,0 +1,68 @@
+const resourceCompaniesTabColumnConfig = [
+  {
+    header: "Resource Name",
+    field: "name",
+    sortable: true,
+    isSelected: true,
+    isChecked: false,
+    isPermanent: true,
+  },
+  {
+    header: "Resource Type",
+    field: "resourceType",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "Contract Name",
+    field: "contractName",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "End Client",
+    field: "endClient",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "Supplier",
+    field: "supplier",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "Start Date",
+    field: "startDate",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "End Date",
+    field: "endDate",
+    sortable: false,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+  {
+    header: "Status",
+    field: "status",
+    sortable: true,
+    isSelected: true,
+    isChecked: true,
+    isPermanent: false,
+  },
+];
+
+export default resourceCompaniesTabColumnConfig;
